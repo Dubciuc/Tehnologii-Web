@@ -1,7 +1,7 @@
 body {
     background-image: url('../index_images/germanAuto\(index\).jpg');
     background-repeat: no-repeat;
-
+    font-family: 'Raleway', sans-serif;
 }
 #intro {
     text-align: center;
@@ -21,8 +21,8 @@ body {
 }
 .list li a {
     text-decoration: none;
-    color: white;
+    color:rgb(255, 255, 255) ;
 }
 .list li a:hover {
-    color: bisque;
+    color: rgb(0, 125, 197);
 }
