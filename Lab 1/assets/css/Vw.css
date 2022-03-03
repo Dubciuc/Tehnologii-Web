@@ -59,33 +59,28 @@ body {
 .nav li a:hover {
     color: #5956E9;
 }
-.section1 {
+.text {
     color: whitesmoke;
     font-size: 20px;
-    padding-top: 100px;
-    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 60px;
     line-height: 1.5;
 }
 .img_1 {
     width: 570px;
     border-radius: 50px;
-    float: left;
 }
 .img_2 {
     width: 570px;
     border-radius: 50px;
-    float: right;
-}
-.leftstr, .rightstr {
-    float: left;
-    width: 50%;
-    text-align: center;
 }
 .font {
     font-size: 30px;
     font-weight: 700;
     color: white;
 }
-.section2 {
-    padding-top: 20px;
+.image_text {
+    display: flex;
+    padding-top: 150px;
 }
