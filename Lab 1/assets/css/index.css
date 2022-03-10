@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-image: url("../index_images/germanAuto\(index\).jpg");
     font-family: 'Raleway', sans-serif;
 }
 #intro {
@@ -24,25 +24,4 @@ body {
 }
 .list li a:hover {
     color: rgb(0, 125, 197);
-}
-.line {
-    display: inline-block;
-    padding-left: 70px;
-}
-.img_1 {
-    width: 500px;
-    border-radius: 20px;
-}
-.align {
-    margin: 0 auto;
-    width: 100%;
-}
-.img_2 {
-    width: 400px;
-    border-radius: 20px;
-    padding-left: 0;
-    margin-left: 70px;
-}
-.pad {
-    padding-top: 30px;
 }
