@@ -1,0 +1,233 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+.header {
+    width: 100%;
+    background-image: url("../vw_images/vw_header.jpg");
+    background-size: cover;
+    height: 500px;
+}
+
+.container_header {
+    width: 100%;
+    margin: 0;
+    box-shadow: 0 10px 13px -7px;
+
+}
+
+.part_top {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    opacity: 0.6;
+}
+
+hr {
+    border: none;
+    background-color: white;
+    height: 2.5px;
+    margin: 0;
+}
+
+.logo {
+    position: relative;
+    top: -20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 48px;
+}
+
+.hr1 {
+    width: 67%;
+}
+
+.hr2 {
+    width: 29%;
+}
+
+.line {
+    display: flex;
+}
+
+.menu_icon {
+    height: 24px;
+    vertical-align: bottom;
+
+}
+
+.menu {
+    width: 100px;
+    margin-left: 40px;
+    padding-top: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.text {
+    color: white;
+    font-size: 15px;
+}
+
+.dropbtn {
+    background: none;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    color: white;
+    margin: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.part_top .search_containers {
+    float: right;
+    margin: 17px 30px;
+    width: 250px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.section_1 {
+    width: 100%;
+    padding-top: 20px;
+    height: 450px;
+}
+
+.container_section {
+    width: 100%;
+    margin: 0;
+}
+
+.part_left_s1_3 {
+    background-color: rgb(0, 67, 122);
+    height: 450px;
+    width: 48%;
+    float: left;
+    border-radius: 70px;
+}
+
+.container_text_s {
+    padding: 80px 70px;
+}
+
+.text_s1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.part_left_s1_3 .det_1_3 {
+    border-radius: 30px;
+    background: white;
+    border: none;
+    color: rgb(0, 67, 122);
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-left: 80px;
+}
+
+.part_right_s1_3 {
+    float: right;
+    width: 50%;
+}
+
+.img_s1 {
+    height: 450px;
+    margin-left: 200px;
+}
+
+.section_2 {
+    height: 410px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.part_left_s2 {
+    height: 410px;
+    float: left;
+    width: 48%;
+}
+
+.img_s2 {
+    height: 410px;
+    width: 100%;
+    border-radius: 70px;
+}
+
+.part_right_s2 {
+    background-color: rgb(0, 67, 122);
+    height: 410px;
+    width: 48%;
+    float: right;
+    border-radius: 70px;
+}
+
+.part_right_s2 .det_2 {
+    border-radius: 30px;
+    background: white;
+    border: none;
+    color: rgb(0, 67, 122);
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-left: 80px;
+}
+
+.text_s2 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section_3 {
+    height: 410px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.text_s3 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.img_s3 {
+    height: 410px;
+    width: 100%;
+    border-radius: 70px;
+}
