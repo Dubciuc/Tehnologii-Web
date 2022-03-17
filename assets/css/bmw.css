@@ -4,7 +4,7 @@ body {
 }
 .header {
     width: 100%;
-    background-image: url("../vw_images/vw_header.jpg");
+    background-image: url("../bmw_images/bmw_header.jpg");
     background-size: cover;
     height: 500px;
 }
@@ -133,7 +133,7 @@ button {
 }
 
 .part_left_s1_3 {
-    background-color: rgb(0, 67, 122);
+    background-color: gray;
     height: 450px;
     width: 48%;
     float: left;
@@ -155,7 +155,7 @@ button {
     border-radius: 30px;
     background: white;
     border: none;
-    color: rgb(0, 67, 122);
+    color: gray;
     font-size: 20px;
     padding: 10px 30px;
     margin-left: 80px;

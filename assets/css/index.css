@@ -4,16 +4,17 @@ body {
 }
 .header {
     width: 100%;
-    background-image: url("../vw_images/vw_header.jpg");
+    background-image: url("../index_images/index_header.jpg");
     background-size: cover;
     height: 500px;
 }
 
 .container_header {
     width: 100%;
+    height: 500px;
     margin: 0;
     box-shadow: 0 10px 13px -7px;
-    height: 500px;
+
 }
 
 .part_top {
@@ -21,7 +22,7 @@ body {
     height: 60px;
     background-color: black;
     opacity: 0.6;
-    box-shadow: 0 11px 15px 5px
+    box-shadow: 0 11px 15px 5px;
 }
 
 hr {
@@ -40,11 +41,11 @@ hr {
 }
 
 .hr1 {
-    width: 67%;
+    width: 40%;
 }
 
 .hr2 {
-    width: 29%;
+    width: 40%;
 }
 
 .line {
@@ -130,13 +131,7 @@ button {
 .container_section {
     width: 100%;
     margin: 0;
-}
-
-.part_left_s1_3 {
     background-color: rgb(0, 67, 122);
-    height: 450px;
-    width: 48%;
-    float: left;
     border-radius: 70px;
 }
 
@@ -145,90 +140,8 @@ button {
 }
 
 .text_s1 {
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-}
-
-.part_left_s1_3 .det_1_3 {
-    border-radius: 30px;
-    background: white;
-    border: none;
-    color: rgb(0, 67, 122);
     font-size: 20px;
-    padding: 10px 30px;
-    margin-left: 80px;
-}
-
-.part_right_s1_3 {
-    float: right;
-    width: 50%;
-}
-
-.img_s1 {
-    height: 450px;
-    margin-left: 200px;
-}
-
-.section_2 {
-    height: 410px;
-    padding-top: 20px;
-    width: 100%;
-}
-
-.part_left_s2 {
-    height: 410px;
-    float: left;
-    width: 48%;
-}
-
-.img_s2 {
-    height: 410px;
-    width: 100%;
-    border-radius: 70px;
-}
-
-.part_right_s2 {
-    background-color: rgb(0, 67, 122);
-    height: 410px;
-    width: 48%;
-    float: right;
-    border-radius: 70px;
-}
-
-.part_right_s2 .det_2 {
-    border-radius: 30px;
-    background: white;
-    border: none;
-    color: rgb(0, 67, 122);
-    font-size: 20px;
-    padding: 10px 30px;
-    margin-left: 80px;
-}
-
-.text_s2 {
-    font-size: 50px;
     color: white;
     text-align: center;
     font-weight: bold;
-}
-
-.section_3 {
-    height: 410px;
-    padding-top: 20px;
-    width: 100%;
-}
-
-.text_s3 {
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-}
-
-.img_s3 {
-    height: 410px;
-    width: 100%;
-    border-radius: 70px;
 }
