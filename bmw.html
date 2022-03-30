@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <script src="assets/js/bmw.js"></script>
+   
     <title>BMW</title>
 </head>
 <body>
@@ -43,11 +43,20 @@
     <div class="container_section">
         <div class="part_left_s1_3">
             <div class="container_text_s">
-                <div class="text_s1">
+                <div class="text_s open">
                     Informatii generale despre marca BMW
                 </div>
+                <div class="text_show close">
+                    BMW AG (acronimul pentru Despre acest sunet Bayerische Motoren Werke AG (ajutor·info), în română Uzina Bavareză de Motoare SA) este o companie multinațională germană care produce în prezent automobile și motociclete de lux și a produs, de asemenea, motoare de avioane până în 1945.
+                    Compania a fost înființată în 1916 și își are sediul în München, Bavaria. 
+                    BMW produce autovehicule în Germania, Brazilia, China, India, Africa de Sud, Marea Britanie și Statele Unite. 
+                    În 2015, BMW a fost al 12-lea cel mai mare producător mondial de autovehicule, cu 2.279.503 de vehicule produse. 
+                    Membrii familiei Quandt sunt acționari pe termen lung ai companiei, restul de acțiuni fiind deținute de publicul de tip float.
+                    Automobilele sunt comercializate sub mărcile BMW (cu sub-mărci BMW M pentru modele performante și BMW i pentru mașinile electrice cu priză electrică), Mini și Rolls-Royce. 
+                    Motocicletele sunt comercializate sub marca BMW Motorrad.
+                </div>
             </div>
-            <button onclick="fu_s1()" type="text" class="det_1_3" >Detalii</button>
+            <button onclick="fun(this)" class="det_1_3" id="1">Detalii</button>
         </div>
         <div class="part_right_s1_3">
             <img src="assets/bmw_images/bmw_logo.png" alt=" " class="img_s1">
@@ -57,15 +66,31 @@
 <div class="section_2">
     <div class="container_section">
         <div class="part_left_s2">
-            <img name="slideshow_s2" class="img_s2">
+            <div class="slider">
+                <div class="slide">
+                    <img src="assets/bmw_images/m8_1.jpg" alt="" class="slide_img" />
+                </div>
+                <div class="slide">
+                    <img src="assets/bmw_images/m8_2.jpg" alt="" class="slide_img" />
+                </div>
+                <div class="slide">
+                    <img src="assets/bmw_images/m8_3.jpg" alt="" class="slide_img" />
+                </div>
+            </div>
         </div>
         <div class="part_right_s2">
             <div class="container_text_s">
-                <div class="text_s2">
+                <div class="text_s open">
                     Modelul: BMW M8
                 </div>
+                <div class="text_show close">
+                    BMW M8 este versiunea de înaltă performanță a BMW Seria 8 (G15) comercializată sub marca BMW M.
+                    Introdus în iunie 2019, M8 a fost produs inițial în stilurile de caroserie decapotabilă cu 2 uși (cod model F91) și coupe cu 2 uși (cod model F92).
+                    Un sedan cu 4 uși (cod model F93, comercializat ca „Gran Coupe”) a fost adăugat la gama în octombrie 2019. 
+                    M8 este alimentat de motorul V8 dublu turbo BMW S63 împărtășit cu BMW M5 (F90) .
+                </div>
             </div>
-            <button onclick="fu_s2()" type="text" class="det_2" >Detalii</button>
+            <button onclick="fun(this)" class="det_2" id="2">Detalii</button>
         </div>
     </div>
 </div>
@@ -73,16 +98,36 @@
     <div class="container_section">
         <div class="part_left_s1_3">
             <div class="container_text_s">
-                <div class="text_s3">
+                <div class="text_s open">
                     Modelul: BMW M4
                 </div>
+                <div class="text_show close">
+                    BMW M4 este o versiune de înaltă performanță a coupe-urilor și decapotabilelor BMW Seria 4 dezvoltată de divizia de sport cu motor a BMW, BMW M , și comercializată din 2014.
+                    Ca parte a renumerotării care împarte modelele coupé și decapotabile Seria 3 în Seria 4 (pentru a le diferenția și mai mult de Seria 3), M4 a înlocuit modelele BMW M3 coupé și decapotabile. 
+                    Actualizările față de BMW Seria 4 standard includ un motor îmbunătățit, suspensie, sistem de evacuare, frâne și măsuri de reducere a greutății, inclusiv utilizarea sporită a fibrei de carbon , cum ar fi pe plafonul mașinii.
+                    A doua iterație a BMW M4 (nume de cod G82) se bazează în mare parte pe Seria 4 standard (generația G22) , care a fost previzualizată de BMW Concept 4. 
+                    Este o versiune de înaltă performanță a Seria 4 standard G22. 
+                    Prototipurile BMW M4 au fost văzute testate pe Nurburgring, alături de BMW M3 G80 .
+                    Primele unități au fost asamblate în noiembrie 2020, livrările globale începând cu începutul anului 2021.
+                </div>
             </div>
-            <button onclick="fu_s3()" type="text" class="det_1_3" >Detalii</button>
+            <button onclick="fun(this)" class="det_1_3" id="3">Detalii</button>
         </div>
         <div class="part_right_s1_3">
-            <img name="slideshow_s3" class="img_s3">
+            <div class="slider">
+                <div class="slide">
+                    <img src="assets/bmw_images/m4_1.jpg" alt="" class="slide_img" />
+                </div>
+                <div class="slide">
+                    <img src="assets/bmw_images/m4_2.jpg" alt="" class="slide_img" />
+                </div>
+                <div class="slide">
+                    <img src="assets/bmw_images/m4_3.jpg" alt="" class="slide_img" />
+                </div>
+            </div>
         </div>
     </div>
 </div>
+<script src="assets/js/bmw.js"></script>
 </body>
 </html>
