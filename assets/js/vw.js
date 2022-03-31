@@ -38,22 +38,25 @@ function fun(button) {
 }
 
 
-const slide = Array.from(document.querySelectorAll(".slide"));
+const slide1 = Array.from(document.querySelectorAll(".slide1"));
+const slide2 = Array.from(document.querySelectorAll(".slide2"));
 
-let slideNum = slide.length;
 let activeSlide = 0;
 let time = 2000;
-slide[activeSlide].classList.add("slide_active");
-function changeSlide() {
-    if (activeSlide < slideNum - 1) {
-        slide[activeSlide].classList.remove("slide_active");
-        activeSlide++;
-        slide[activeSlide].classList.add("slide_active");
+slide1[0].classList.add("slide_active");
+slide2[0].classList.add("slide_active");
+function changeSlide(sld, actvsld) {
+
+    if (actvsld < sld.length - 1 ) {
+        sld[actvsld].classList.remove("slide_active");
+        actvsld++;
+        sld[actvsld].classList.add("slide_active");
     } else {
-        slide[activeSlide].classList.remove("slide_active");
-        activeSlide = 0;
-        slide[activeSlide].classList.add("slide_active");
+        sld[actvsld].classList.remove("slide_active");
+        actvsld = 0;
+        sld[actvsld].classList.add("slide_active");
     }
-    setTimeout("changeSlide()", time);
+    setTimeout(function(){changeSlide(sld, actvsld)}, time);
 }
-changeSlide();
+changeSlide(slide1, activeSlide);
+changeSlide(slide2, activeSlide);
