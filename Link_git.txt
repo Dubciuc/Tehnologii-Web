@@ -1,5 +1,0 @@
-Lab 1:
-https://github.com/Dubciuc/Tehnologii-Web/tree/Lab
-
-Lab 2:
-https://github.com/Dubciuc/Tehnologii-Web/tree/Lab-2
