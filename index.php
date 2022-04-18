@@ -19,10 +19,10 @@
                     Menu
                 </button>
                 <div id="myDropdown" class="dropdown-content">
-                    <a href="opel.html">Opel</a>
-                    <a href="bmw.html">BMW</a>
-                    <a href="vw.html">Volkswagen</a>
-                    <a href="opel.html">Mercedes</a>
+                    <a href="opel.php">Opel</a>
+                    <a href="bmw.php">BMW</a>
+                    <a href="vw.php">Volkswagen</a>
+                    <a href="opel.php">Mercedes</a>
                 </div>
             </div>
             <div class="search_containers">

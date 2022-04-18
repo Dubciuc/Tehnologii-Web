@@ -18,10 +18,10 @@
                     Menu
                 </button>
                 <div id="myDropdown" class="dropdown-content">
-                    <a href="index.html">Home</a>
-                    <a href="mercedes.html">Mercedes</a>
-                    <a href="bmw.html">BMW</a>
-                    <a href="opel.html">Opel</a>
+                    <a href="index.php">Home</a>
+                    <a href="mercedes.php">Mercedes</a>
+                    <a href="bmw.php">BMW</a>
+                    <a href="opel.php">Opel</a>
                 </div>
             </div>
             <div class="search_containers">
