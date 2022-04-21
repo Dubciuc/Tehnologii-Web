@@ -1,0 +1,122 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    background-image: url("../log_in_images/background.jpg");
+
+}
+
+.container {
+    width: 45%;
+    height: 650px;
+    box-shadow: 0 10px 13px -7px;
+    background-color: white;
+    margin: 25px auto 0;
+    opacity: 0.99;
+    border-radius: 10px;
+}
+
+.container_log {
+    height: 600px;
+    padding: 30px;
+    background-color: rgb(0, 67, 122);
+    border-radius: 20px;
+}
+
+.container_forms {
+    background-color: white;
+    margin: 20px;
+    height: 560px;
+    border-radius: 20px;
+}
+
+.text_main {
+    color: white;
+    width: 380px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text_form_main {
+    color: rgb(0, 67, 122);
+    width: 100px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.pas_log {
+    margin: 0 auto;
+    padding-top: 60px;
+    width: 350px;
+}
+
+.form {
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px 8px 8px 45px;
+    font-size: 14px;
+    width: 300px;
+    color: rgb(0, 67, 122);
+}
+
+.sign {
+    width: 357px;
+    background-color: rgb(0, 67, 122);
+    padding: 10px 20px;
+    color: white;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.log_2 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin: 20px auto 0;
+    width: 30px;
+}
+
+.googleFacebook {
+    width: 357px;
+    margin: 30px 125px;
+    display: inline-block;
+}
+
+.google {
+    width: 170px;
+    background-color: #8b0013;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.facebook {
+    width: 170px;
+    background-color: #177bff;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.butt_reg {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(0, 67, 122);
+    width: 30%;
+    margin: 20px auto 0;
+}
