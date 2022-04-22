@@ -34,7 +34,7 @@
             </div>
             <div class="butt_reg">
                 Not registered?
-                <a href="reg.html" class="link">Sign Up</a>
+                <a href="reg.php" class="link">Sign Up</a>
             </div>
         </div>
     </div>
