@@ -6,8 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <title>Home</title>
     <script src="assets/js/index.js"></script>
+    <title>Home</title>
 </head>
 <body>
 <div class="header">
@@ -22,14 +22,11 @@
                     <a href="opel.php">Opel</a>
                     <a href="bmw.php">BMW</a>
                     <a href="vw.php">Volkswagen</a>
-                    <a href="opel.php">Mercedes</a>
+                    <a href="mercedes.php">Mercedes</a>
                 </div>
             </div>
             <div class="search_containers">
-                <form action="#" target="_blank" >
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit">Submit</button>
-                </form>
+                <a href="log_in.php" class="text_link">Sign In</a>
             </div>
         </div>
     </div>
@@ -50,3 +47,8 @@
                     Deja în 1900, a reușit să organizeze producția de masă de mașini.
                     25 de ani mai târziu, în colaborare cu talentatul inginer Gottlieb Daimler, a fost deschisă o întreagă întreprindere care a dat lumii legendarul brand Mercedes Benz.
                 </div>
+            </div>
+    </div>
+</div>
+</body>
+</html>

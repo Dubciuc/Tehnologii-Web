@@ -145,3 +145,10 @@ button {
     text-align: center;
     font-weight: bold;
 }
+
+.text_link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}

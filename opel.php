@@ -25,10 +25,7 @@
                 </div>
             </div>
             <div class="search_containers">
-                <form action="#" target="_blank" >
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit">Submit</button>
-                </form>
+                <a href="log_in.php" class="text_link">Sign In</a>
             </div>
         </div>
         <div class="line">
@@ -48,14 +45,14 @@
                 <div class="text_show close">
                     Opel este o fabrica producătoare de vehicule din Germania cu sediul in Russelsheim, fondată în anul 1862 de către Adam Opel.
                     Aceasta este o filială a Groupe PSA din 1 august 2017.
-                    În martie 2017, Groupe PSA a fost de acord să achiziționeze Opel de la General Motors. 
-                    Achiziția a fost aprobată de autoritățile de reglementare ale Comisiei Europene în iulie 2017. 
+                    În martie 2017, Groupe PSA a fost de acord să achiziționeze Opel de la General Motors.
+                    Achiziția a fost aprobată de autoritățile de reglementare ale Comisiei Europene în iulie 2017.
                     Sediul Opel se află în Rüsselsheim am Main, Hesse, Germania.
                     Inițial compania producea mașini de cusut, iar din 1886 a început să producă biciclete .
-                    Adam Opel a murit in anul 1895, urmând ca afacerea să fie preluată de soția acestuia și de doi dintre fii săi. 
+                    Adam Opel a murit in anul 1895, urmând ca afacerea să fie preluată de soția acestuia și de doi dintre fii săi.
                     În anul 1898, au realizat un parteneriat cu Frederich Lutzmann, ce a dus la realizarea primului model Opel.
-                    Începând cu anul 1899 compania a început să producă automobile . 
-                    În anul 1929 pachetul majoritar de acțiuni a fost cumpărat de compania americană General Motors. 
+                    Începând cu anul 1899 compania a început să producă automobile .
+                    În anul 1929 pachetul majoritar de acțiuni a fost cumpărat de compania americană General Motors.
                     În prezent brand-ul Opel este deținut de Stellantis.'
                 </div>
             </div>
@@ -107,15 +104,15 @@
                 <div class="text_show close">
                     Opel Corsa (ˈoːpəl ˈkoːrsa) este un supermini german produs de General Motors din 1982.
                     Opel Corsa este produs și sub mărcile: Vauxhall (în Marea Britanie) și Chevrolet (în America de Sud și Asia).
-                    Corsa este unul dintre cele mai bine vândute vehicule ale companiei (cel mai bine vândut după Astra). 
-                    Se clasează în mod constant printre primele zece mașini cele mai vândute din Europa. 
+                    Corsa este unul dintre cele mai bine vândute vehicule ale companiei (cel mai bine vândut după Astra).
+                    Se clasează în mod constant printre primele zece mașini cele mai vândute din Europa.
                     Până la sfârșitul lunii august 2012, au fost vândute 11,8 milioane de unități - Corsa reprezintă 28% din vânzările Opel.
-                    Prima generație Corsa a fost introdusă în 1982. 
-                    La început a fost produs la uzina General Motors din Zaragoza și mai târziu în Germania. 
+                    Prima generație Corsa a fost introdusă în 1982.
+                    La început a fost produs la uzina General Motors din Zaragoza și mai târziu în Germania.
                     În Marea Britanie se numea Vauxhall Nova.
-                    Mașina a fost furnizată cu motoare de 1.0 L 45 CP, 1.2 L 55 CP, 1.3 L 70 CP și 1.4 L 75 CP. din. 
-                    Toate motoarele erau pe benzină. În 1990, Corsa a fost restilizată. 
-                    Mașina a primit bare de protecție, faruri, grilă și interior noi. 
+                    Mașina a fost furnizată cu motoare de 1.0 L 45 CP, 1.2 L 55 CP, 1.3 L 70 CP și 1.4 L 75 CP. din.
+                    Toate motoarele erau pe benzină. În 1990, Corsa a fost restilizată.
+                    Mașina a primit bare de protecție, faruri, grilă și interior noi.
                     Mașina a concurat cu Ford Fiesta și Peugeot 205. Au fost produse în total 3.105.430 de mașini.
                 </div>
             </div>

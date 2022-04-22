@@ -27,6 +27,15 @@
                     <button type="submit" class="sign">Sign In</button>
                 </form>
             </div>
+            <div class="log_2">OR</div>
+            <div class="googleFacebook">
+                <button type="button" class="google">Google</button>
+                <button type="button" class="facebook">Facebook</button>
+            </div>
+            <div class="butt_reg">
+                Not registered?
+                <a href="reg.html" class="link">Sign Up</a>
+            </div>
         </div>
     </div>
 </div>

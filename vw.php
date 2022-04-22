@@ -25,10 +25,7 @@
                 </div>
             </div>
             <div class="search_containers">
-                <form action="#" target="_blank" >
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit">Submit</button>
-                </form>
+                <a href="log_in.php" class="text_link">Sign In</a>
             </div>
         </div>
         <div class="line">
@@ -79,7 +76,7 @@
         <div class="part_right_s2">
             <div class="container_text_s">
                 <div class="text_s open">
-                   Modelul: Volkswagen Passat
+                    Modelul: Volkswagen Passat
                 </div>
                 <div class="text_show close">
                     Volkswagen Passat este o serie de mașini mari de familie fabricate și comercializate de producătorul german de automobile Volkswagen din 1973 și acum în a opta generație.

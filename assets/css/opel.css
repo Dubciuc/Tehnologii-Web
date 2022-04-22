@@ -256,3 +256,10 @@ button {
 .slide_active {
     opacity: 1;
 }
+
+.text_link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
