@@ -12,23 +12,9 @@
 <body>
 <div class="header">
     <div class="container_header">
-        <div class="part_top">
-            <div class="dropdown">
-                <button  onclick="myFunction()" class="dropbtn text">
-                    <img src="assets/bmw_images/bmw_menu_icon.jpg" alt=" " class="menu_icon">
-                    Menu
-                </button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="index.php">Home</a>
-                    <a href="mercedes.php">Mercedes</a>
-                    <a href="vw.php">Volkswagen</a>
-                    <a href="opel.php">Opel</a>
-                </div>
-            </div>
-            <div class="search_containers">
-                <a href="log_in.php" class="text_link">Sign In</a>
-            </div>
-        </div>
+        <?php
+            require('assets/components/part_top_bmw.php');
+            ?>
         <div class="line">
             <hr class="hr1">
             <img src="assets/bmw_images/bmw_logo.png" alt= " " class="logo">

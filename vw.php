@@ -11,23 +11,9 @@
 <body>
 <div class="header">
     <div class="container_header">
-        <div class="part_top">
-            <div class="dropdown">
-                <button  onclick="myFunction()" class="dropbtn text">
-                    <img src="assets/vw_images/vw_menu_icon.jpg" alt=" " class="menu_icon">
-                    Menu
-                </button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="index.php">Home</a>
-                    <a href="mercedes.php">Mercedes</a>
-                    <a href="bmw.php">BMW</a>
-                    <a href="opel.php">Opel</a>
-                </div>
-            </div>
-            <div class="search_containers">
-                <a href="log_in.php" class="text_link">Sign In</a>
-            </div>
-        </div>
+        <?php
+            require('assets/components/part_top_vw.php');
+            ?>
         <div class="line">
             <hr class="hr1">
             <img src="assets/vw_images/vw_logo.png" alt= " " class="logo">
