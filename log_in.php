@@ -18,8 +18,16 @@
             <div class="text_form_main">
                 Sign In
             </div>
+            <p style='color: red; text-align: center;' >
+            <?php session_start();
+                if(isset($_SESSION['errors']) && $_SESSION['errors']){
+                echo "Login sau Parola gresita!";
+                $_SESSION['errors'] = false;
+                }
+            ?>
+            </p>
             <div class="pas_log">
-                <form action="index.php" target="_blank" >
+                <form action="sign_in.php" method="post" >
                     <label class="label">
                         <input type="text" placeholder="Username or email" name="Username" class="form">
                         <input type="password" placeholder="Password" name="Password" class="form">

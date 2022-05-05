@@ -12,6 +12,8 @@
                 </div>
             </div>
             <div class="search_containers">
-                <a href="log_in.php" class="text_link">Sign In</a>
+            <a href="log_in.php" class="text_link" id="btn_lgin">Sign In</a>
+                <p onclick="logout()" class="text_link" id="btn_lgot">Log out</p>
             </div>
         </div>
+        <script src="./assets/js/auth_verificare.js"></script>
