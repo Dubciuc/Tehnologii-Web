@@ -19,11 +19,11 @@
                 Sign Up
             </div>
             <div class="pas_log">
-                <form action="log_in.php" target="_blank" >
+                <form action="sign_out.php" method="post" >
                     <label class="label">
-                        <input type="text" placeholder="Email" name="Email" class="form">
+                        <input type="text" placeholder="Email" name="Username" class="form">
                         <input type="password" placeholder="Password" name="Password" class="form">
-                        <input type="text" placeholder="Country" name="Country" class="form">
+                        <input type="password" placeholder="Confirm password" name="confPassword" class="form">
                     </label>
                     <button type="submit" class="sign">Sign Up</button>
                 </form>
@@ -36,6 +36,5 @@
         </div>
     </div>
 </div>
-<script src="assets/js/reg.js"></script>
 </body>
 </html>
