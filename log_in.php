@@ -29,7 +29,7 @@
             <div class="pas_log">
                 <form action="sign_in.php" method="post" >
                     <label class="label">
-                        <input type="text" placeholder="Username or email" name="Username" class="form">
+                        <input type="text" placeholder="Email" name="Username" class="form">
                         <input type="password" placeholder="Password" name="Password" class="form">
                     </label>
                     <button type="submit" class="sign">Sign In</button>

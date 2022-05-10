@@ -263,3 +263,7 @@ button {
     font-size: 20px;
     font-weight: bold;
 }
+
+#btn_lgot {
+    cursor: pointer;
+}

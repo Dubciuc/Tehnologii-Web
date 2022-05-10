@@ -264,3 +264,7 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
+
+#btn_lgot {
+    cursor: pointer;
+}
