@@ -8,7 +8,8 @@ if (count($_POST)){
 
     $username = isset($_POST['Username']) ? $_POST['Username'] : '';
     $userpassword = isset($_POST['Password']) ? $_POST['Password'] : '';
-    
+    $confPassword = isset($_POST['confPassword']) ? $_POST['confPassword'] : '';
+
     foreach($utArray as $value){
 
         if($value->nume == $username){
