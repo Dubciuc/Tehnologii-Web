@@ -27,7 +27,7 @@
             ?>
             </p>
             <div class="pas_log">
-                <form action="sign_out.php" method="post" >
+                <form action="sign_out.php" method="post" id="reg_form">
                     <label class="label">
                         <input type="text" placeholder="Email" name="Username" class="form" id="log_in_form">
                         <input type="password" placeholder="Password" name="Password" class="form" id ="reg_form">
@@ -44,5 +44,6 @@
         </div>
     </div>
 </div>
+<script src="asstets/js/check.js"></script>
 </body>
 </html>

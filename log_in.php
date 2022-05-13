@@ -27,7 +27,7 @@
             ?>
             </p>
             <div class="pas_log">
-                <form action="sign_in.php" method="post" >
+                <form action="sign_in.php" method="post" id="lgin_form">
                     <label class="label">
                         <input type="text" placeholder="Email" name="Username" class="form">
                         <input type="password" placeholder="Password" name="Password" class="form">
@@ -48,5 +48,6 @@
     </div>
 </div>
 <script src="assets/js/log_in.js"></script>
+<script src = "asstets/js/check.js"></script>
 </body>
 </html>

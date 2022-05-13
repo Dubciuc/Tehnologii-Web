@@ -13,7 +13,7 @@ if (count($_POST)){
     foreach($utArray as $value){
         if($value->nume == $username){
             $_SESSION['errors'] = true;
-            $_SESSION['query_result'] = 'Username already exists!';
+            $_SESSION['query_result'] = 'Utilizator existent!';
             header("Location: reg.php");
             return;
         }
@@ -21,7 +21,7 @@ if (count($_POST)){
 
     if($userpassword != $confPassword){
         $_SESSION['errors'] = true;
-        $_SESSION['query_result'] = 'Passwords don\'t mach!';
+        $_SESSION['query_result'] = 'Nu corespunde parola!';
         header("Location: reg.php");
         return;
     }
