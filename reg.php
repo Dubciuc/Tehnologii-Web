@@ -18,6 +18,14 @@
             <div class="text_form_main">
                 Sign Up
             </div>
+            <p style='color: red; text-align: center;'>
+            <?php session_start();
+                if(isset($_SESSION['errors']) && $_SESSION['errors']){
+                echo $_SESSION['query_result'];
+                $_SESSION['errors'] = false;
+                }
+            ?>
+            </p>
             <div class="pas_log">
                 <form action="sign_out.php" method="post" >
                     <label class="label">
