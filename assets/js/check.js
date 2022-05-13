@@ -87,14 +87,6 @@ function validate_register(){
     const upass = regForm.elements['Password'];
     const upassConf = regForm.elements['confPassword'];
 
-    var uname_err = document.getElementById('uname_error');
-    var pass1_err = document.getElementById('pass1_error');
-    var pass2_err = document.getElementById('pass2_error');
-
-    uname_err.innerHTML = "";
-    pass1_err.innerHTML = "";
-    pass2_err.innerHTML = "";
-
     if(!req_field(uname.value)){
         uname.placeholder = "* Required field!";
         flag = false;
