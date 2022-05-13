@@ -11,12 +11,11 @@ if (count($_POST)){
     $confPassword = isset($_POST['confPassword']) ? $_POST['confPassword'] : '';
 
     foreach($utArray as $value){
-
         if($value->nume == $username){
             $_SESSION['errors'] = true;
             $_SESSION['query_result'] = 'Username already exists!';
             header("Location: reg.php");
-            break;
+            return;
         }
     }
 
@@ -24,6 +23,7 @@ if (count($_POST)){
         $_SESSION['errors'] = true;
         $_SESSION['query_result'] = 'Passwords don\'t mach!';
         header("Location: reg.php");
+        return;
     }
 
     $utArray[] = ['nume' => $username, 'password' => $userpassword];
