@@ -1,1 +1,10 @@
-[{"nume":"damian","password":"1234"},{"nume":"ddubciuc@gmail.com","password":"qwerty1111"}]
+[
+    {
+        "nume": "damian",
+        "password": "1234"
+    },
+    {
+        "nume": "ddubciuc@gmail.com",
+        "password": "qwerty1111"
+    }
+]

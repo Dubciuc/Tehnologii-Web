@@ -28,12 +28,12 @@
             </p>
             <div class="pas_log">
                 <form action="sign_out.php" method="post" id="reg_form">
-                    <label class="label">
-                        <input type="text" placeholder="Email" name="Username" class="form" id="log_in_form">
-                        <input type="password" placeholder="Password" name="Password" class="form" id ="reg_form">
-                        <input type="password" placeholder="Confirm password" name="confPassword" class="form">
+                    <label for="email"></label>
+                        <input type="text" placeholder="Email" name="Username" class="form" id="email" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" >
+                        <input type="password" placeholder="Password" name="Password" class="form" id="pass" data-reg="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+                        <input type="password" placeholder="Confirm password" name="confPassword" class="form" id="confPass" data-reg="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
                     </label>
-                    <button type="submit" class="sign">Sign Up</button>
+                    <button type="submit" class="sign" id="btn">Sign Up</button>
                 </form>
             </div>
             <div class="log_2">OR</div>
@@ -44,6 +44,6 @@
         </div>
     </div>
 </div>
-<script src="asstets/js/check.js"></script>
+<script src="assets/js/check_reg.js"></script>
 </body>
 </html>
