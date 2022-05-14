@@ -1,4 +1,4 @@
-const form = document.forms["reg_form"];
+const form = document.forms["forms"];
 const formArr = Array.from(form);
 const validFormArr = [];
 const button = form.elements["btn"];

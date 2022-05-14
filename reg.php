@@ -27,7 +27,7 @@
             ?>
             </p>
             <div class="pas_log">
-                <form action="sign_out.php" method="post" id="reg_form">
+                <form action="sign_out.php" method="post" id="forms">
                     <label for="email"></label>
                         <input type="text" placeholder="Email" name="Username" class="form" id="email" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" >
                         <input type="password" placeholder="Password" name="Password" class="form" id="pass" data-reg="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
@@ -44,6 +44,6 @@
         </div>
     </div>
 </div>
-<script src="assets/js/check_reg.js"></script>
+<script src="assets/js/check.js"></script>
 </body>
 </html>

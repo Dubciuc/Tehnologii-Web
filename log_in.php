@@ -27,12 +27,12 @@
             ?>
             </p>
             <div class="pas_log">
-                <form action="sign_in.php" method="post" id="lgin_form">
+                <form action="sign_in.php" method="post" id="forms">
                     <label class="label">
-                        <input type="text" placeholder="Email" name="Username" class="form">
-                        <input type="password" placeholder="Password" name="Password" class="form">
+                        <input type="text" placeholder="Email" name="Username" class="form" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$">
+                        <input type="password" placeholder="Password" name="Password" class="form"  data-reg="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
                     </label>
-                    <button type="submit" class="sign">Sign In</button>
+                    <button type="submit" class="sign" id="btn">Sign In</button>
                 </form>
             </div>
             <div class="log_2">OR</div>
@@ -48,6 +48,6 @@
     </div>
 </div>
 <script src="assets/js/log_in.js"></script>
-<script src = "asstets/js/check.js"></script>
+<script src = "assets/js/check.js"></script>
 </body>
 </html>
