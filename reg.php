@@ -18,7 +18,7 @@
             <div class="text_form_main">
                 Sign Up
             </div>
-            <p style='color: red'>
+            <p style='color: red; text-align: center;'>
             <?php session_start();
                 if(isset($_SESSION['errors']) && $_SESSION['errors']){
                 echo $_SESSION['query_result'];
@@ -27,13 +27,13 @@
             ?>
             </p>
             <div class="pas_log">
-                <form action="sign_out.php" method="post" >
-                    <label class="label">
-                        <input type="text" placeholder="Email" name="Username" class="form" id="log_in_form">
-                        <input type="password" placeholder="Password" name="Password" class="form" id ="reg_form">
-                        <input type="password" placeholder="Confirm password" name="confPassword" class="form">
+                <form action="sign_out.php" method="post" id="forms">
+                    <label for="email"></label>
+                        <input type="text" placeholder="Email" name="Username" class="form" id="email" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" >
+                        <input type="password" placeholder="Password" name="Password" class="form" id="pass" data-reg="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+                        <input type="password" placeholder="Confirm password" name="confPassword" class="form" id="confPass" data-reg="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
                     </label>
-                    <button type="submit" class="sign">Sign Up</button>
+                    <button type="submit" class="sign" id="btn">Sign Up</button>
                 </form>
             </div>
             <div class="log_2">OR</div>
@@ -44,5 +44,6 @@
         </div>
     </div>
 </div>
+<script src="assets/js/check.js"></script>
 </body>
 </html>
