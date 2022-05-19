@@ -57,7 +57,7 @@ function buttonHandler(e) {
   
       $.ajax({
         type: "POST",
-        url: "../sign_in.php",
+        url: "sign_in.php",
         data: {
           "Username": usname,
           "Password": uspass
@@ -67,7 +67,7 @@ function buttonHandler(e) {
           if(d == true){
             document.getElementById("err").innerHTML = "Login sau Parola gresita!"
           }else{
-            document.location = "../index.php";
+            document.location = "index.php";
             localStorage.setItem('username', usname);
             localStorage.setItem('statusLog','true');
           }
@@ -85,7 +85,7 @@ function buttonHandler(e) {
 
       $.ajax({
         type: "POST",
-        url: "../sign_out.php",
+        url: "sign_up.php",
         data: {
           "Username": usname,
           "Password": uspass
@@ -96,12 +96,10 @@ function buttonHandler(e) {
             document.getElementById("err").innerHTML = "Inregistrare esuata!"
           }else{
             alert('Inregistrat cu succex.');
-            document.location = '../log_in.php';
+            document.location = 'log_in.php';
           }
         }
       });
     }
-z
-
   }
 }
