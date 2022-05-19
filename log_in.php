@@ -18,14 +18,13 @@
             <div class="text_form_main">
                 Sign In
             </div>
+            <p style='color: red; text-align: center;' id="err"></p>
             <div class="pas_log">
-                <ul id="form-messages">
-                </ul>
                 <form action="sign_in.php" method="post" id="forms">
-                    <label for="username"></label>
-                    <input type="text" placeholder="Email" name="Username" spellcheck="false" id="username" class="form" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$">
-                    <label for="password"></label>
-                    <input type="password" placeholder="Password" id="password" name="Password" class="form"  data-reg="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+                    <label class="label">
+                        <input type="text" placeholder="Email" name="Username" class="form" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$">
+                        <input type="password" placeholder="Password" name="Password" class="form"  data-reg="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+                    </label>
                     <button type="submit" class="sign" id="btn">Sign In</button>
                 </form>
             </div>
@@ -35,13 +34,13 @@
                 <button type="button" class="facebook">Facebook</button>
             </div>
             <div class="butt_reg">
-                Not registered?
+                <p>Not registered?</p>
                 <a href="reg.php" class="link">Sign Up</a>
             </div>
         </div>
     </div>
 </div>
-<script src="assets/js/log_in.js"></script>
-<script src = "assets/js/check_log.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="assets/js/check.js"></script>
 </body>
 </html>

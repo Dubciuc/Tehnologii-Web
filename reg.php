@@ -18,14 +18,7 @@
             <div class="text_form_main">
                 Sign Up
             </div>
-            <p style='color: red; text-align: center;'>
-            <?php session_start();
-                if(isset($_SESSION['errors']) && $_SESSION['errors']){
-                echo $_SESSION['query_result'];
-                $_SESSION['errors'] = false;
-                }
-            ?>
-            </p>
+            <p style='color: red; text-align: center;' id="err"></p>
             <div class="pas_log">
                 <form action="sign_out.php" method="post" id="forms">
                     <label for="email"></label>
@@ -44,6 +37,7 @@
         </div>
     </div>
 </div>
-<script src="assets/js/check_reg.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="assets/js/check.js"></script>
 </body>
 </html>
