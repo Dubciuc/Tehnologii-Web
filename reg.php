@@ -44,6 +44,6 @@
         </div>
     </div>
 </div>
-<script src="assets/js/check.js"></script>
+<script src="assets/js/check_reg.js"></script>
 </body>
 </html>

@@ -18,20 +18,14 @@
             <div class="text_form_main">
                 Sign In
             </div>
-            <p style='color: red; text-align: center;' >
-            <?php session_start();
-                if(isset($_SESSION['errors']) && $_SESSION['errors']){
-                echo "Login sau Parola gresita!";
-                $_SESSION['errors'] = false;
-                }
-            ?>
-            </p>
             <div class="pas_log">
+                <ul id="form-messages">
+                </ul>
                 <form action="sign_in.php" method="post" id="forms">
-                    <label class="label">
-                        <input type="text" placeholder="Email" name="Username" class="form" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$">
-                        <input type="password" placeholder="Password" name="Password" class="form"  data-reg="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
-                    </label>
+                    <label for="username"></label>
+                    <input type="text" placeholder="Email" name="Username" spellcheck="false" id="username" class="form" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$">
+                    <label for="password"></label>
+                    <input type="password" placeholder="Password" id="password" name="Password" class="form"  data-reg="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
                     <button type="submit" class="sign" id="btn">Sign In</button>
                 </form>
             </div>
@@ -48,6 +42,6 @@
     </div>
 </div>
 <script src="assets/js/log_in.js"></script>
-<script src = "assets/js/check.js"></script>
+<script src = "assets/js/check_log.js"></script>
 </body>
 </html>
