@@ -27,7 +27,7 @@
             ?>
             </p>
             <div class="pas_log">
-                <form action="sign_out.php" method="post" id="forms">
+                <form action="sign_up.php" method="post" id="forms">
                     <label for="email"></label>
                         <input type="text" placeholder="Email" name="Username" class="form" id="email" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" >
                         <input type="password" placeholder="Password" name="Password" class="form" id="pass" data-reg="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
