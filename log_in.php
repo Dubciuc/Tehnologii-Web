@@ -47,7 +47,6 @@
         </div>
     </div>
 </div>
-<script src="assets/js/log_in.js"></script>
 <script src = "assets/js/check.js"></script>
 </body>
 </html>
